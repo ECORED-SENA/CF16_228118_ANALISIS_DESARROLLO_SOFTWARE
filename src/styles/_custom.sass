@@ -10,10 +10,234 @@
     top: 51%
     right: 30%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+.banner-principal__row .banner-principal__img
+  width: 320px
+  padding-bottom: 0px !important
+
+.banner-principal .tarjeta
+  @media screen and ( max-width: $bp-max-lg )
+    background-size: 1400px
+    background-position: left
+
+.banner-interno__titulo__icono i
+  color: $color-sistema-texto
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto
+
+.tarjeta.color-primario
+  background-color: #DEBEFB
+  transition: all 0.5s ease-out
+  p,b,i
+    color: $color-sistema-texto
+.tarjeta.color-primario:hover
+  background-color: #3A1D71
+  b
+    color: #F0C518
+  p,i
+    color: white
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #F0C518
+.slyder-a__bullets__item
+  background-color: #DBBDF5
+.slyder-a__bullets__item--active
+  background-color: #A854F3
+
+hr
+  background-color: #DEBEFB
+  border-bottom: 5px solid #DEBEFB
+  margin: 0px
+
+.tarjeta.color-acento-botones
+  background-color: #DEBEFB
+
+.crd_hover_txt1
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt1--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+.crd_hover_txt1--body
+  position: absolute
+  padding: 1.5rem
+  bottom: 0    
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  background-color: rgba(255, 99, 99, 0.9)
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt1--body
+      p
+        font-size: 0.85em
+
+.crd_hover_txt2
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt2--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+.crd_hover_txt2--body
+  position: absolute
+  padding: 1.5rem
+  bottom: 0    
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  background-color: rgba(240, 197, 24, 0.9)
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt2--body
+      p
+        font-size: 0.85em
+
+.crd_hover_txt3
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt3--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+.crd_hover_txt3--body
+  position: absolute
+  padding: 1.5rem
+  bottom: 0    
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  background-color: rgba(11, 206, 95, 0.9)
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt3--body
+      p
+        font-size: 0.85em
+
+.tarjeta.color-acento-contenido
+	background-color: #E8EEFE
+	background-image: url(../assets/curso/tema4/img6.svg)
+	background-repeat: no-repeat
+	background-position: right bottom
+	p,b
+		color: $color-sistema-texto
+
+.tabs-a__tab
+	background-color: #3A1D71
+.tabs-a__tab__text
+	color: white
+.tabs-a__tab.tabs-a__tab__selected
+	.tabs-a__tab__text
+		color: $color-sistema-texto
+
+.bg
+  &-c1
+    background-image: url(../assets/curso/intro/img2.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+    background-position: bottom
+    margin-bottom: -48px
+  &-c2
+    background-color: #AEC4FA
+    border-radius: 10px
+  &-c3
+    background-color: #E3DFEB
+    border-radius: 10px
+  &-c4
+    background-color: #DEBEFB
+    border-radius: 10px
+  &-c5
+    background-image: url(../assets/curso/tema1/img1.svg)
+    background-repeat: no-repeat
+  &-c6
+    background-image: url(../assets/curso/tema1/img1.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+    background-position: bottom
+  &-c7
+    background-color: #7737ef
+    background-image: linear-gradient(180deg, #7737ef 0%, #291156 100%)
+    border-radius: 15px
+  &-c8
+    background-image: url(../assets/curso/tema1/img9.svg)
+    background-repeat: no-repeat
+    background-position: left center
+    background-size: 950px
+    @media screen and ( max-width: $bp-max-lg )
+      background-image: none
+      background-color: white
+      border-radius: 10px
+  &-c9
+    background-image: url(../assets/curso/tema1/img2.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-c10
+    background-color: white
+    border-radius: 10px
+  &-c11
+    background-color: #F7EEFE
+  &-c12
+    z-index: 2
+  &-c13
+    z-index: 1
+  &-c14
+    background-image: url(../assets/curso/tema2/img2.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-c15
+    background-image: url(../assets/curso/tema2/img9.png)
+    background-repeat: no-repeat
+    background-position: top
+    @media screen and ( max-width: $bp-max-lg )
+      background-size: cover
+      border-radius: 10px
+  &-c16
+    background-color: #F2E5FD
+    border-radius: 10px
+    transition: all 0.5s ease-out
+  &-c16:hover
+    background-color: #3A1D71
+    p
+      color: white
+  &-c17
+    background-image: url(../assets/curso/tema2/img12.png)
+    background-repeat: no-repeat
+    background-size: contain
+    margin-inline: -3.2rem !important
+    background-position-y: 50px
+  &-c18
+    background-color: #D6E1FD
+    border-radius: 10px
+  &-c19
+    background-image: url(../assets/curso/tema2/img17.png)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: bottom
+    margin-inline: -3.2rem !important
+  &-c20
+    background-image: url(../assets/curso/tema2/img18.png)
+    background-repeat: no-repeat
+    background-size: cover
+    border-radius: 10px
+  &-c21
+    background-image: url(../assets/curso/tema3/img1.png)
+    background-repeat: no-repeat
+    background-size: contain
+    margin-inline: -3.2rem !important
+  &-c22
+    background-color: #ECF2FF
+    border-radius: 10px
+
+.fig
+  &-p1
+    position: relative
+    bottom: 15px;

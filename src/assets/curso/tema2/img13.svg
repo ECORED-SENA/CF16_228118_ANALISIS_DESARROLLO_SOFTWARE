@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Grupo_1099970" data-name="Grupo 1099970" transform="translate(-300 -991)">
+    <rect id="Rectángulo_401238" data-name="Rectángulo 401238" width="70" height="70" rx="10" transform="translate(300 991)" fill="#fff" opacity="0.3"/>
+    <g id="Grupo_1099454" data-name="Grupo 1099454" transform="translate(311.442 1001.583)">
+      <g id="Grupo_1099446" data-name="Grupo 1099446" transform="translate(0 14.321)">
+        <g id="Grupo_1099445" data-name="Grupo 1099445" transform="translate(0)">
+          <path id="Trazado_874254" data-name="Trazado 874254" d="M59.967,180.378H57.825v-31.1a2.628,2.628,0,0,0-2.625-2.625H50.413a2.628,2.628,0,0,0-2.625,2.625v31.1H42.349V163.37a2.628,2.628,0,0,0-2.625-2.625H34.936a2.628,2.628,0,0,0-2.625,2.625v17.009H26.873V171.57a2.628,2.628,0,0,0-2.625-2.625H19.46a2.628,2.628,0,0,0-2.625,2.625v8.809H14.578a.977.977,0,1,0,0,1.953H59.967a.977.977,0,1,0,0-1.953Zm-35.048,0H18.788V171.57a.673.673,0,0,1,.672-.672h4.787a.673.673,0,0,1,.672.672Zm15.476,0H34.264V163.37a.673.673,0,0,1,.672-.672h4.787a.673.673,0,0,1,.672.672Zm15.476,0H49.741v-31.1a.673.673,0,0,1,.672-.672H55.2a.673.673,0,0,1,.672.672v31.1Z" transform="translate(-13.601 -146.654)" fill="#3a1d71"/>
+        </g>
+      </g>
+      <g id="Grupo_1099448" data-name="Grupo 1099448" transform="translate(8.373)">
+        <g id="Grupo_1099447" data-name="Grupo 1099447" transform="translate(0)">
+          <path id="Trazado_874255" data-name="Trazado 874255" d="M135.195,1.027A.973.973,0,0,0,134.17,0l-.047,0h-5.908a.977.977,0,0,0,0,1.953h3.648l-9.654,9.654-3.641-3.641a.977.977,0,0,0-1.381,0L99.632,25.522a.977.977,0,0,0,1.381,1.381l16.865-16.865,3.641,3.641a.977.977,0,0,0,1.381,0L133.244,3.334v3.3a.977.977,0,0,0,1.953,0V1.074C135.2,1.058,135.2,1.043,135.195,1.027Z" transform="translate(-99.346)" fill="#3a1d71"/>
+        </g>
+      </g>
+      <g id="Grupo_1099450" data-name="Grupo 1099450" transform="translate(5.082 28.643)">
+        <g id="Grupo_1099449" data-name="Grupo 1099449">
+          <circle id="Elipse_11456" data-name="Elipse 11456" cx="0.977" cy="0.977" r="0.977" fill="#3a1d71"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
