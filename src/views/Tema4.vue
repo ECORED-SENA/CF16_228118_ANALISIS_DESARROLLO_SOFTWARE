@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Diseño centrado en el usuario
-    p.mb-4 Los patrones estructurales proveen una orientación relacionada a la forma de definir los componentes de los objetos. Dentro de los patrones estructurales se encuentran:
+    p.mb-4(data-aos="fade-right") Los patrones estructurales proveen una orientación relacionada a la forma de definir los componentes de los objetos. Dentro de los patrones estructurales se encuentran:
     .row.align-items-center.mb-5
-      .col-lg-9.order-2.order-lg-1
+      .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         .row
           .col-12.bg-c4
             .p-3
@@ -18,7 +18,7 @@
                     img(src='@/assets/curso/tema4/img1.svg', style="width:130px" alt='').m-auto
                 .col
                   p.mb-0 Contar con información previa sobre las necesidades de consumo, estilos y tendencias en el plano tecnológico, entre otras, son factores clave en el diseño centrado en el usuario. Esta información es relevante para la fase de producción y soluciones de diseño. En ella, por ejemplo, se determina cómo será la estructura principal de la aplicación, definiendo cada una de las funciones y tareas que debe realizar la aplicación móvil para cumplir con los requerimientos solicitados e identificados con el cliente o los usuarios.
-      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/img1.png', style="width:250px" alt='').m-auto
     .row.mb-4(data-aos="fade-down")
@@ -30,12 +30,12 @@
                 img(src='@/assets/curso/tema1/img6.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Fases del diseño de las aplicaciones
-    p.mb-5 Existen cuatro fases establecidas para el diseño de aplicaciones móviles, definidas por la norma ISO 13407, que integran el proceso del DCU, diseño centrado en el usuario y que están, además, concebidas bajo seis principios que deben caracterizar una interfaz centrada en el usuario. Las dos primeras fases tienen especial intención de documentar las necesidades y requerimientos del usuario.
+    p.mb-5(data-aos="fade-right") Existen cuatro fases establecidas para el diseño de aplicaciones móviles, definidas por la norma ISO 13407, que integran el proceso del DCU, diseño centrado en el usuario y que están, además, concebidas bajo seis principios que deben caracterizar una interfaz centrada en el usuario. Las dos primeras fases tienen especial intención de documentar las necesidades y requerimientos del usuario.
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema4/img2.svg', style="width:350px" alt='').m-auto
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/img3.svg', style="width:550px" alt='La figura presenta las fases establecidas para el diseño de aplicaciones móviles, estas son: Comprender y hacer específico el contexto de uso. Especificar los requisitos de usuario y de la organización. Producir soluciones de diseño. Evaluar los diseños en base a los requisitos.').m-auto
     .row.mb-4(data-aos="fade-down")
@@ -47,9 +47,9 @@
                 img(src='@/assets/curso/tema1/img6.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Principios del diseño centrado en usuarios
-    p.mb-5 Los seis principios que deben caracterizar una interfaz centrada en el usuario apuntan, sin lugar a dudas, a una satisfacción plena del usuario con las aplicaciones que tenga a su disposición.
+    p.mb-5(data-aos="fade-right") Los seis principios que deben caracterizar una interfaz centrada en el usuario apuntan, sin lugar a dudas, a una satisfacción plena del usuario con las aplicaciones que tenga a su disposición.
     .row.mb-5
-      .col-12.bg-c22
+      .col-12.bg-c22(data-aos="fade-down")
         .p-4
           .titulo-sexto.color-acento-contenido.mb-4
             p.mb-0 #[b Figura 1]. Principios que caracterizan al DCU
@@ -57,7 +57,7 @@
             img(src='@/assets/curso/tema4/img4.svg', style="width:1050px" alt='La figura presenta los principios que caracterizan al diseño centrado en el usuario, estos son: Planificación. Evaluación. Especificación de requisitos. Cumple con los requerimientos. Especificación del contexto de uso. Genera la solución del diseño.').m-auto
           figure.d-block.d-lg-none
             img(src='@/assets/curso/tema4/img4m.svg', style="width:350px" alt='La figura presenta los principios que caracterizan al diseño centrado en el usuario, estos son: Planificación. Evaluación. Especificación de requisitos. Cumple con los requerimientos. Especificación del contexto de uso. Genera la solución del diseño.').m-auto
-    p.mb-5 Esta responsabilidad hacia las personas que utilizan los teléfonos inteligentes y los servicios de las aplicaciones responde también a las demandas de la dinámica de consumo actual. Se vincula con la creciente oferta de servicios que conectan a los individuos con el mundo, con otras personas y con sus intereses, y que, además, dinamizan y facilitan su vida y actividades diarias.
+    p.mb-5(data-aos="fade-right") Esta responsabilidad hacia las personas que utilizan los teléfonos inteligentes y los servicios de las aplicaciones responde también a las demandas de la dinámica de consumo actual. Se vincula con la creciente oferta de servicios que conectan a los individuos con el mundo, con otras personas y con sus intereses, y que, además, dinamizan y facilitan su vida y actividades diarias.
     .row.mb-4(data-aos="fade-down")
       .col-auto.bg-c7
         .px-3.pb-0
@@ -68,12 +68,12 @@
             .col
               h3.text-white Técnicas para el diseño centrado en usuarios
     .row.align-items-center.mb-5
-      .col-lg-10.order-2.order-lg-1
+      .col-lg-10.order-2.order-lg-1(data-aos="fade-right")
         p.mb-0 Conocer y comprender las necesidades, limitaciones, comportamientos y características de los usuarios, junto con el modelo de las tres etapas (análisis, diseño y evaluación)  desarrollado en cuatro fases específicas, abre la puerta a la consideración de técnicas para un diseño óptimo de aplicaciones centradas en el usuario.
-      .col-lg-2.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-2.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/img5.svg', style="width:280px" alt='').m-auto
-    TabsA.color-acento-botones.mb-5
+    TabsA.color-acento-botones.mb-5(data-aos="fade-down")
       .tarjeta.color-acento-contenido.p-4(titulo="Conocimiento directo y real")
         .row
           .col-12
@@ -125,12 +125,12 @@
                 img(src='@/assets/curso/tema1/img6.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Ventajas
-    p.mb-5 El diseño por fases y la observancia de los principios del diseño centrado en el usuario promueven un alto nivel de satisfacción de las expectativas, no solo para los usuarios de las aplicaciones y sus servicios, sino también para las compañías u operadores que las ofrecen. Sin embargo, existen algunas ventajas que se manifiestan previamente a la oferta y uso de la aplicación móvil.
+    p.mb-5(data-aos="fade-right") El diseño por fases y la observancia de los principios del diseño centrado en el usuario promueven un alto nivel de satisfacción de las expectativas, no solo para los usuarios de las aplicaciones y sus servicios, sino también para las compañías u operadores que las ofrecen. Sin embargo, existen algunas ventajas que se manifiestan previamente a la oferta y uso de la aplicación móvil.
     .row.bg-c9
       .col-12
         .p-5
           .row
-            .col-12
+            .col-12(data-aos="fade-left")
               .p-5.bg-c10
                 SlyderA(tipo="b")
                   .row.justify-content-center

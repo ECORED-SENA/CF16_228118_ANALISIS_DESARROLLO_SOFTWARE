@@ -2,15 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Usabilidad y funcionalidad de las aplicaciones
-    p.mb-5 Para diseñar una interfaz gráfica eficaz para aplicaciones móviles, es esencial entender y aplicar ciertos parámetros importantes que han demostrado mejorar tanto el rendimiento como la usabilidad. Estos son:
+    p.mb-5(data-aos="fade-right") Para diseñar una interfaz gráfica eficaz para aplicaciones móviles, es esencial entender y aplicar ciertos parámetros importantes que han demostrado mejorar tanto el rendimiento como la usabilidad. Estos son:
     .row.bg-c21
       .col-12
         .px-5
-          .row.justify-content-center.mb-5
+          .row.justify-content-center.mb-5(data-aos="fade-left")
             .col-lg-10.bg-c4.mb-4
               .p-3
                 .row.align-items-center
@@ -38,8 +38,8 @@
                   .col
                     p.mb-0 #[b Satisfacción]
                     p.mb-0 Representa la respuesta positiva de los usuarios ante la correcta y eficiente ejecución de las actividades propuestas por la aplicación. Se puede medir mediante la frecuencia de uso del producto y las reacciones positivas hacia su uso.
-          p.mb-5 Para conocer con más detalle, los principios que regulan la usabilidad y funcionalidad de una interface para páginas web y dispositivos móviles, le invitamos a revisar el siguiente recurso:
-          figure
+          p.mb-5(data-aos="fade-right") Para conocer con más detalle, los principios que regulan la usabilidad y funcionalidad de una interface para páginas web y dispositivos móviles, le invitamos a revisar el siguiente recurso:
+          figure(data-aos="fade-left")
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 

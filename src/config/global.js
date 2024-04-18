@@ -131,31 +131,125 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Interfaz',
+      referencia:
+        'Diseño de materiales. Componentes de la interface gráfica para móviles. MATERIAL.IO.',
+      tipo: 'Página web con recursos',
+      link: 'https://material.io/components?platform=android',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Diseño centrado en el usuario',
+      referencia:
+        'Party. (2012). CPQuito2 - Principios de diseño de experiencia de usuario para Mobile.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=vVZ2F89MiyI',
+    },
+    {
+      tema: 'Diseño de materiales',
+      referencia:
+        'Video CPQuito2 - Principios de diseño de experiencia de usuario para Mobile.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=vVZ2F89MiyI',
+    },
+    {
+      tema: 'Estructuras de navegación',
+      referencia:
+        'Jose Rafael Rojas B. (2021). Diseño y Desarrollo de Aplicaciones Móviles 01 – Introducción.',
+      tipo: 'Video',
+      link: 'https://youtu.be/2STnjpA8XQc',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: '<i>Benchmarking</i>',
+      significado:
+        'proceso de creación, recopilación, comparación y análisis de indicadores (<i>benchmarks</i>) para medir el avance de procesos y funciones importantes en una organización.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Estándar ISO 13407',
+      significado:
+        'marco de guía para el desarrollo de sistemas interactivos usables, que incorpora el Diseño Centrado en el Usuario (DCU) durante el ciclo de vida del desarrollo.',
+    },
+    {
+      termino: 'Hipermedia',
+      significado:
+        'conjunto de métodos para la escritura, diseño y composición de contenidos multimediales como imágenes, videos, textos, audios, mapas y otros soportes, facilitando nuevas interacciones para los usuarios.',
+    },
+    {
+      termino: 'Ley de Fitts',
+      significado:
+        'ley que describe la rapidez y precisión del movimiento humano al apuntar a un objetivo, aplicable al acto de apuntar con la mano o dedos y al uso de dispositivos como el mouse en computadoras.',
+    },
+    {
+      termino: 'Navegabilidad',
+      significado:
+        'facilidad con la que los usuarios pueden desplazarse por las páginas o ventanas de un sitio web o aplicación, requiriendo recursos y estrategias de navegación efectivas.',
+    },
+    {
+      termino: '<i>Pixel</i>',
+      significado:
+        'abreviatura de <i>Picture Element</i>, la unidad más pequeña de color que compone una imagen digital.',
+    },
+    {
+      termino: '<i>Skeumorfismo</i>',
+      significado:
+        'objeto evolucionado que retiene detalles del diseño original para hacerlo más familiar, derivado de las palabras griegas <i>skeuos</i> (herramienta o contenedor) y <i>morphe</i> (forma).',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Fernández Casado, Pablo E, 2019. Usabilidad web, teoría y uso. Bogotá, Madrid: Ediciones de la U, Ra-Ma Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gothelf, J., Seiden, J., & López Manzano, J. (2014). Lean UX. Logroño: UNIR Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Jacobson, I., Booch G., Rumbaugh, J.(2007). El lenguaje unificado de modelado: manual de referencia. Madrid: Pearson Educación.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kendall, K., Kendall, J., & Kendall, J. (2011). Análisis y diseño de sistemas. México, DF: Pearson Educación.',
+      link: '',
+    },
+    {
+      referencia:
+        'Klein, L. (2014). Experiencia de usuario para lean startups. Logroño: UNIR Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Krug, S. (2015). No me hagas pensar, "actualización". Madrid: Anaya Multimedia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Luján Castillo, José Dimas, 2017. HTML5, CSS y Javascript. Crea tu web y apps con el estándar de desarrollo. Bogotá: Alfaomega Colombiana RC Libros.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pohl, K. & Rupp, C. (2011). Requirements engineering fundamentals. Santa Barbara, CA: Rocky Nook.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pressman, R., Campos Olguín, V., & Enríquez Brito, J. (2010). Ingeniería del software. México: McGraw-Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Recio García, Juan Antonio, 2018. HTML5, CSS3 y JQuery Curso práctico. Bogotá: Ediciones de la U.',
+      link: '',
+    },
+    {
+      referencia:
+        'Sommerville I. (2011).  Ingeniería del software. México: Addison-Wesley',
       link: '',
     },
   ],
@@ -179,8 +273,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Wilson Andrés Cuervo Nieto',
+          cargo: 'Experto Temático',
+          centro: 'Grupo de Apoyo Administrativo - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -189,23 +288,23 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Álvarez',
           cargo: 'Desarrollador Fullstack',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Edgar Mauricio Cortés García',
+          cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
