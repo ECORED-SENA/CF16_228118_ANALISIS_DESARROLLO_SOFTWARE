@@ -52,7 +52,7 @@
                     h3.text-white Interfaz de usuario
           .row.align-items-center.mb-5
             .col-lg-10.order-2.order-lg-1(data-aos="fade-right")
-              p.mb-0 La interfaz de usuario, o el #[i frontend] de aplicaciones móviles, programas y páginas web, actúa como mediador entre el usuario y los dispositivos electrónicos como computadoras, smartphones o cualquier dispositivo que ejecute #[i software]. Su función principal es proporcionar un entorno visual, integrado por #[b gráficos, imágenes, iconos y animaciones], que facilita la integración, visualización y comprensión de la información que ofrece la aplicación, además de generar #[b las herramientas necesarias para la interacción].
+              p.mb-0 La interfaz de usuario, o el #[i frontend] de aplicaciones móviles, programas y páginas web, actúa como mediador entre el usuario y los dispositivos electrónicos como computadoras, #[i smartphones] o cualquier dispositivo que ejecute #[i software]. Su función principal es proporcionar un entorno visual, integrado por #[b gráficos, imágenes, iconos y animaciones], que facilita la integración, visualización y comprensión de la información que ofrece la aplicación, además de generar #[b las herramientas necesarias para la interacción].
             .col-lg-2.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema1/img7.svg', style="width:220px" alt='').m-auto
@@ -109,7 +109,7 @@
                   .row.justify-content-center
                     .col-lg-5.mb-4.mb-lg-0
                       p #[b Interfaz cerebro-ordenador]
-                      p.mb-0 Tecnología en desarrollo, con numerosas investigaciones en curso, especialmente en el ámbito médico. Se utiliza para permitir a pacientes con prótesis biónicas emitir instrucciones sencillas a software mediante la captura de ondas cerebrales, conectándolas a hardware.
+                      p.mb-0 Tecnología en desarrollo, con numerosas investigaciones en curso, especialmente en el ámbito médico. Se utiliza para permitir a pacientes con prótesis biónicas emitir instrucciones sencillas a #[i software] mediante la captura de ondas cerebrales, conectándolas a #[i hardware].
                     .col-lg-5
                       figure
                         img(src='@/assets/curso/tema1/img7.png', style="width:380px" alt='').m-auto
@@ -124,7 +124,7 @@
               h3.text-white Historia de las interfaces
     .row.align-items-center.mb-5
       .col-lg-10.order-2.order-lg-1(data-aos="fade-right")
-        p.mb-0 El desarrollo de las interfaces gráficas comenzó a la par con la comercialización de los computadores personales en la década de 1970; antes de ello, solo se utilizaban interfaces de texto, lo cual complicaba la comunicación debido a su complejidad. Gracias a los esfuerzos de empresas como IBM, Microsoft y Apple, rápidamente se diseñaron herramientas gráficas que simplificaron la interacción con los sistemas operativos y el software de aquel entonces, empleando la metáfora del escritorio de oficina como representación del entorno gráfico.
+        p.mb-0 El desarrollo de las interfaces gráficas comenzó a la par con la comercialización de los computadores personales en la década de 1970; antes de ello, solo se utilizaban interfaces de texto, lo cual complicaba la comunicación debido a su complejidad. Gracias a los esfuerzos de empresas como IBM, Microsoft y Apple, rápidamente se diseñaron herramientas gráficas que simplificaron la interacción con los sistemas operativos y el #[i software] de aquel entonces, empleando la metáfora del escritorio de oficina como representación del entorno gráfico.
       .col-lg-2.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img11.svg', style="width:230px" alt='').m-auto
@@ -136,7 +136,7 @@
         .row
           .col-12.bg-c11
             .p-3
-              p #[b Los prirreros productos de Apple, Microsoft e IBM jugaron un papel crucial en el establecirñento de los principios de diseño e interacción que aún se emplean, ofreciendo a los usuarios un lenguaje claro y un entorno interactivo, basado en señales, íconos, hipervínculos, y dinámicas únicas que reflejan las acciones del sistema inforrnático.]
+              p #[b Los primeros productos de Apple, Microsoft e IBM jugaron un papel crucial en el establecimiento de los principios de diseño e interacción que aún se emplean, ofreciendo a los usuarios un lenguaje claro y un entorno interactivo, basado en señales, íconos, hipervínculos, y dinámicas únicas que reflejan las acciones del sistema informático.]
               hr.hr1
     p.mb-0(data-aos="fade-right") Estos avances permitieron crear entornos de trabajo mucho más familiares y accesibles para la mayoría de los usuarios, transformando la experiencia de interactuar con una pantalla negra y una línea de texto de comando, en una interfaz totalmente gráfica e interactiva, más agradable y estimulante para la interacción.
       

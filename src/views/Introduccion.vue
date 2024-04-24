@@ -41,7 +41,7 @@
                     figure
                       img(src='@/assets/curso/intro/img3.svg', style="width:70px" alt='').m-auto
                   .col
-                    p.mb-0 Realizar un análisis detallado de los requisitos de la aplicación, comprendiendo profundamente las funcionalidades necesarias para satlúcer las necesidades y expectativas de los usuarios.
+                    p.mb-0 Realizar un análisis detallado de los requisitos de la aplicación, comprendiendo profundamente las funcionalidades necesarias para satisfacer las necesidades y expectativas de los usuarios.
             .col-lg-10.bg-c3.mb-4
               .p-3
                 .row.align-items-center
@@ -49,7 +49,7 @@
                     figure
                       img(src='@/assets/curso/intro/img4.svg', style="width:70px" alt='').m-auto
                   .col
-                    p.mb-0 Recoger feedback de potenciales usuarios a través de entrevistas, encuestas o pruebas de concepto, 10 que garantiza que las características planeadas estén alineadas con las demandas del mercado y resuelvan problemas reales de los usuarios.
+                    p.mb-0 Recoger #[i feedback] de potenciales usuarios a través de entrevistas, encuestas o pruebas de concepto, 10 que garantiza que las características planeadas estén alineadas con las demandas del mercado y resuelvan problemas reales de los usuarios.
             .col-lg-10.bg-c4.mb-4
               .p-3
                 .row.align-items-center
@@ -57,7 +57,7 @@
                     figure
                       img(src='@/assets/curso/intro/img5.svg', style="width:70px" alt='').m-auto
                   .col
-                    p.mb-0 Establecer prioridades entre las civersas funcionalidades para enfocarse en aquellas que ofrecen mayor valor al voyecto desde su lanzamiento.
+                    p.mb-0 Establecer prioridades entre las diversas funcionalidades para enfocarse en aquellas que ofrecen mayor valor al proyecto desde su lanzamiento.
             .col-lg-10.bg-c3.mb-4
               .p-3
                 .row.align-items-center
@@ -65,7 +65,7 @@
                     figure
                       img(src='@/assets/curso/intro/img6.svg', style="width:70px" alt='').m-auto
                   .col
-                    p.mb-0 Proceder con el ciseño técnico de la aplicación, incluyendo la arquitectura de #[i software], la selección de tecnologías y herramientas de desarrollo, y la planificación de las etapas de construcción y pruebas.
+                    p.mb-0 Proceder con el diseño técnico de la aplicación, incluyendo la arquitectura de #[i software], la selección de tecnologías y herramientas de desarrollo, y la planificación de las etapas de construcción y pruebas.
             .col-lg-10.bg-c4.mb-4
               .p-3
                 .row.align-items-center
@@ -73,7 +73,7 @@
                     figure
                       img(src='@/assets/curso/intro/img7.svg', style="width:70px" alt='').m-auto
                   .col
-                    p.mb-0 Adoptar metodologíass que permitan iteraciones rápidas, flexibilidad en el desarrollo y adaptabilidad ante cambios o nuevos requerimientos.
+                    p.mb-0 Adoptar metodologías que permitan iteraciones rápidas, flexibilidad en el desarrollo y adaptabilidad ante cambios o nuevos requerimientos.
             .col-lg-10.bg-c3.mb-4
               .p-3
                 .row.align-items-center
