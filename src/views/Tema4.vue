@@ -32,12 +32,19 @@
               h3.text-white Fases del diseño de las aplicaciones
     p.mb-5(data-aos="fade-right") Existen cuatro fases establecidas para el diseño de aplicaciones móviles, definidas por la norma ISO 13407, que integran el proceso del DCU, diseño centrado en el usuario y que están, además, concebidas bajo seis principios que deben caracterizar una interfaz centrada en el usuario. Las dos primeras fases tienen especial intención de documentar las necesidades y requerimientos del usuario.
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right").d-none.d-lg-block
+        figure.m-0
+          img(src='@/assets/curso/tema4/img2.svg', style="width:350px" alt='').ml-auto
+      .col-9.col-lg-5(data-aos="fade-left")
+        <ul class="list-group">
+          <li class="list-group-item purple-ligth"><p class='py-2 mb-0 text-bold'>Comprender y hacer específico el contexto de uso.</p></li>
+          <li class="list-group-item gray-blue"><p class='py-2 mb-0 text-bold'>Especificar los requisitos de usuario y de la organización.</p></li>
+          <li class="list-group-item purple-ligth"><p class='py-2 mb-0 text-bold'>Producir soluciones de diseño.</p></li>
+          <li class="list-group-item gray-blue"><p class='py-2 mb-0 text-bold'>Evaluar los diseños en base a los requisitos.</p></li>
+        </ul>
+      .col-2.col-lg-1
         figure
-          img(src='@/assets/curso/tema4/img2.svg', style="width:350px" alt='').m-auto
-      .col-lg-6(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/tema4/img3.svg', style="width:550px" alt='La figura presenta las fases establecidas para el diseño de aplicaciones móviles, estas son: Comprender y hacer específico el contexto de uso. Especificar los requisitos de usuario y de la organización. Producir soluciones de diseño. Evaluar los diseños en base a los requisitos.').m-auto
+          img(src='@/assets/curso/tema4/arrow_down_short.svg', style="max-width: 34px", alt='La figura presenta las fases establecidas para el diseño de aplicaciones móviles, estas son: Comprender y hacer específico el contexto de uso. Especificar los requisitos de usuario y de la organización. Producir soluciones de diseño. Evaluar los diseños en base a los requisitos.').m-auto
     .row.mb-4(data-aos="fade-down")
       .col-auto.bg-c7
         .px-3.pb-0

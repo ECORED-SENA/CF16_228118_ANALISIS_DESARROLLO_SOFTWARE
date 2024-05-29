@@ -41,7 +41,7 @@
           p.mb-5(data-aos="fade-right") Para conocer con más detalle, los principios que regulan la usabilidad y funcionalidad de una interface para páginas web y dispositivos móviles, le invitamos a revisar el siguiente recurso:
           figure(data-aos="fade-left")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/hCOs9JAzTuA?si=eXVjvaUuu6fpzZKq" title="Usabilidad y funcionalidad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

@@ -87,7 +87,7 @@
               img(src='@/assets/curso/tema2/img10.png', style="width:280px" alt='').m-auto
           .col-lg-7(data-aos="fade-left")
             .p-4.p-lg-0
-              p.mb-0 La #[b "ley de la buena forma"] sugiere que los ustarios tienden a percibir y enterder la información de la manera más clara y sencilla posible, reduciendo todo a formas básicas y comprersibles. Esto implica que los usuarios interpretan mejor los acontecimientos y los mensajes presertados en la interfaz cuando la información se organiza en formas simples.
+              p.mb-0 La #[b "ley de la buena forma"] sugiere que los usuarios tienden a percibir y entender la información de la manera más clara y sencilla posible, reduciendo todo a formas básicas y comprensibles. Esto implica que los usuarios interpretan mejor los acontecimientos y los mensajes presentados en la interfaz cuando la información se organiza en formas simples.
     p.mb-0(data-aos="fade-down") Organizar la información en estructuras simples y jerarquizar los elementos de la interfaz facilita que los usuarios organicen y comprendan mejor la información presentada. Esta organización promueve una mejor toma de decisiones al realizar una tarea. Por ejemplo, el uso de contraste de color puede ser efectivo para diferenciar grandes bloques de información, mejorando así la claridad y la eficacia comunicativa de la interfaz.
     Separador
     #t_2_1

@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-12.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="El esquema del componente formativo abarca métricas de usabilidad, tipos de pruebas y fases de diseño en el contexto del desarrollo de aplicaciones móviles híbridas, destacando la evaluación y mejora continua para optimizar la experiencia del usuario.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
