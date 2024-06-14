@@ -138,13 +138,6 @@ export default {
       link: 'https://material.io/components?platform=android',
     },
     {
-      tema: 'Diseño centrado en el usuario',
-      referencia:
-        'Party. (2012). CPQuito2 - Principios de diseño de experiencia de usuario para Mobile.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=vVZ2F89MiyI',
-    },
-    {
       tema: 'Diseño de materiales',
       referencia:
         'Video CPQuito2 - Principios de diseño de experiencia de usuario para Mobile.',
@@ -239,7 +232,7 @@ export default {
     },
     {
       referencia:
-        'Pressman, R., Campos Olguín, V., & Enríquez Brito, J. (2010). Ingeniería del software. México: McGraw-Hill.',
+        'Pressman, R., Campos Olguín, V., & Enríquez Brito, J. (2010). Ingeniería del <em>software</em>. México: McGraw-Hill.',
       link: '',
     },
     {
@@ -249,7 +242,7 @@ export default {
     },
     {
       referencia:
-        'Sommerville I. (2011).  Ingeniería del software. México: Addison-Wesley',
+        'Sommerville I. (2011).  Ingeniería del <em>software</em>. México: Addison-Wesley',
       link: '',
     },
   ],
